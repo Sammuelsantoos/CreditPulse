@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: creditpulse_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: uvicorn api.app:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  dashboard:
+    build: .
+    container_name: creditpulse_dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run dashboard/risk_control_center.py --server.port 8501 --server.address 0.0.0.0
+    depends_on:
+      api:
+        condition: service_healthy
