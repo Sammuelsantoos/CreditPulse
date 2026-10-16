@@ -15,9 +15,9 @@ _ROOT = Path(__file__).resolve().parents[1]
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
-from src.feature_extraction import extract_features
-from src.policy_rules import decide
-from src.scorecard import compute_score, top_factors
+from src.feature_extraction import extract_features  # noqa: E402
+from src.policy_rules import decide  # noqa: E402
+from src.scorecard import compute_score, top_factors  # noqa: E402
 
 st.set_page_config(
     page_title="CreditPulse – Risk Control Center",
@@ -153,7 +153,7 @@ with tab_simulate:
             contrib, x="Contribuição", y="Feature", orientation="h",
             color="Contribuição", color_continuous_scale="Blugrn",
         )
-        fig_c.update_layout(yaxis=dict(autorange="reversed"), height=350)
+        fig_c.update_layout(yaxis={"autorange": "reversed"}, height=350)
         st.plotly_chart(fig_c, use_container_width=True)
 
         st.markdown("**Features calculadas**")
