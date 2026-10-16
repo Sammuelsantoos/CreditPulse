@@ -1,8 +1,6 @@
 from __future__ import annotations
 
-import math
 from dataclasses import dataclass
-
 
 FEATURE_DIRECTIONS = {
     "income_mean_3m": "higher_is_better",

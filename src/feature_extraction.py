@@ -5,7 +5,6 @@ from typing import Any
 
 import polars as pl
 
-
 CREDIT_TYPES = {"CREDIT", "PIX_IN", "TED_IN"}
 DEBIT_TYPES = {"DEBIT", "PIX_OUT", "TED_OUT", "CARD_PAYMENT", "OVERDRAFT"}
 

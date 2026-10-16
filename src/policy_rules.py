@@ -6,7 +6,6 @@ from typing import Any
 from api.schemas import DecisionEnum
 from src.scorecard import ScoreResult
 
-
 MIN_INCOME = 800.0
 MAX_DPD = 30.0
 
