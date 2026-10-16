@@ -1,0 +1,657 @@
+{
+  "applicant": {
+    "cpf": "627.691.328-40",
+    "name": "Cliente bad",
+    "birth_date": "1990-05-12",
+    "monthly_income_declared": 1500.0,
+    "has_restriction": true
+  },
+  "statements": [
+    {
+      "bank_name": "Banco Exemplo",
+      "account_type": "CHECKING",
+      "transactions": [
+        {
+          "date": "2026-10-16",
+          "amount": 1653.07,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 2865.36
+        },
+        {
+          "date": "2026-10-15",
+          "amount": -312.7,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 169.03
+        },
+        {
+          "date": "2026-10-14",
+          "amount": -356.77,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 1452.93
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 1295.18,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 663.99
+        },
+        {
+          "date": "2026-10-12",
+          "amount": -340.3,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 605.27
+        },
+        {
+          "date": "2026-10-11",
+          "amount": -219.16,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1341.55
+        },
+        {
+          "date": "2026-10-10",
+          "amount": -380.24,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 810.52
+        },
+        {
+          "date": "2026-10-09",
+          "amount": -149.37,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2399.13
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 1488.15,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 3280.1
+        },
+        {
+          "date": "2026-10-07",
+          "amount": -352.43,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1816.77
+        },
+        {
+          "date": "2026-10-06",
+          "amount": -239.19,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 1020.42
+        },
+        {
+          "date": "2026-10-05",
+          "amount": -114.4,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 2457.28
+        },
+        {
+          "date": "2026-10-04",
+          "amount": -96.84,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 807.48
+        },
+        {
+          "date": "2026-10-03",
+          "amount": -324.73,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1071.3
+        },
+        {
+          "date": "2026-10-02",
+          "amount": -322.55,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1206.78
+        },
+        {
+          "date": "2026-10-01",
+          "amount": -100.46,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2468.56
+        },
+        {
+          "date": "2026-09-30",
+          "amount": -174.79,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1063.81
+        },
+        {
+          "date": "2026-09-29",
+          "amount": -130.18,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1105.71
+        },
+        {
+          "date": "2026-09-28",
+          "amount": -123.07,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 768.91
+        },
+        {
+          "date": "2026-09-27",
+          "amount": 1254.61,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 4468.12
+        },
+        {
+          "date": "2026-09-26",
+          "amount": 1655.89,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 4190.13
+        },
+        {
+          "date": "2026-09-25",
+          "amount": -23.99,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1388.2
+        },
+        {
+          "date": "2026-09-24",
+          "amount": -130.31,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1825.31
+        },
+        {
+          "date": "2026-09-23",
+          "amount": -361.99,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1425.76
+        },
+        {
+          "date": "2026-09-22",
+          "amount": -375.24,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2065.64
+        },
+        {
+          "date": "2026-09-21",
+          "amount": -261.29,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1384.68
+        },
+        {
+          "date": "2026-09-20",
+          "amount": -345.25,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 2718.41
+        },
+        {
+          "date": "2026-09-19",
+          "amount": 1652.12,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 3137.07
+        },
+        {
+          "date": "2026-09-18",
+          "amount": -54.75,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2117.66
+        },
+        {
+          "date": "2026-09-17",
+          "amount": -303.57,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1925.31
+        },
+        {
+          "date": "2026-09-16",
+          "amount": 1217.89,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 3833.86
+        },
+        {
+          "date": "2026-09-15",
+          "amount": -255.86,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 1907.94
+        },
+        {
+          "date": "2026-09-14",
+          "amount": 1286.27,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 2872.32
+        },
+        {
+          "date": "2026-09-13",
+          "amount": -246.39,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1673.35
+        },
+        {
+          "date": "2026-09-12",
+          "amount": -96.44,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 907.34
+        },
+        {
+          "date": "2026-09-11",
+          "amount": -276.92,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 2526.9
+        },
+        {
+          "date": "2026-09-10",
+          "amount": -277.94,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1756.16
+        },
+        {
+          "date": "2026-09-09",
+          "amount": -81.39,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 457.87
+        },
+        {
+          "date": "2026-09-08",
+          "amount": -194.89,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 860.26
+        },
+        {
+          "date": "2026-09-07",
+          "amount": -24.83,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 2003.6
+        },
+        {
+          "date": "2026-09-06",
+          "amount": -369.64,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 739.23
+        },
+        {
+          "date": "2026-09-05",
+          "amount": 1340.25,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 1813.65
+        },
+        {
+          "date": "2026-09-04",
+          "amount": -332.89,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2121.96
+        },
+        {
+          "date": "2026-09-03",
+          "amount": -252.37,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2923.03
+        },
+        {
+          "date": "2026-09-02",
+          "amount": -203.85,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 1191.25
+        },
+        {
+          "date": "2026-09-01",
+          "amount": -237.49,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1089.66
+        },
+        {
+          "date": "2026-08-31",
+          "amount": -102.98,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1548.01
+        },
+        {
+          "date": "2026-08-30",
+          "amount": -188.47,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 535.26
+        },
+        {
+          "date": "2026-08-29",
+          "amount": -165.98,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1959.39
+        },
+        {
+          "date": "2026-08-28",
+          "amount": -152.52,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2270.3
+        },
+        {
+          "date": "2026-08-27",
+          "amount": -301.84,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 623.13
+        },
+        {
+          "date": "2026-08-26",
+          "amount": -75.34,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1384.92
+        },
+        {
+          "date": "2026-08-25",
+          "amount": -164.03,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 2154.86
+        },
+        {
+          "date": "2026-08-24",
+          "amount": -375.76,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 1855.59
+        },
+        {
+          "date": "2026-08-23",
+          "amount": -142.5,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2582.15
+        },
+        {
+          "date": "2026-08-22",
+          "amount": -23.11,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2482.69
+        },
+        {
+          "date": "2026-08-21",
+          "amount": -271.18,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 487.28
+        },
+        {
+          "date": "2026-08-20",
+          "amount": -72.93,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 1500.13
+        },
+        {
+          "date": "2026-08-19",
+          "amount": 1228.91,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 4232.82
+        },
+        {
+          "date": "2026-08-18",
+          "amount": -264.16,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 134.72
+        },
+        {
+          "date": "2026-08-17",
+          "amount": -337.67,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 2712.84
+        },
+        {
+          "date": "2026-08-16",
+          "amount": -37.51,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 2489.37
+        },
+        {
+          "date": "2026-08-15",
+          "amount": -30.04,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1362.53
+        },
+        {
+          "date": "2026-08-14",
+          "amount": 1495.49,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 4949.96
+        },
+        {
+          "date": "2026-08-13",
+          "amount": -237.98,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 2884.21
+        },
+        {
+          "date": "2026-08-12",
+          "amount": -362.45,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1091.83
+        },
+        {
+          "date": "2026-08-11",
+          "amount": -197.52,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 409.92
+        },
+        {
+          "date": "2026-08-10",
+          "amount": -167.71,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1924.58
+        },
+        {
+          "date": "2026-08-09",
+          "amount": -29.87,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 197.53
+        },
+        {
+          "date": "2026-08-08",
+          "amount": -96.3,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 2143.98
+        },
+        {
+          "date": "2026-08-07",
+          "amount": -300.98,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 1574.51
+        },
+        {
+          "date": "2026-08-06",
+          "amount": -99.52,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 2074.8
+        },
+        {
+          "date": "2026-08-05",
+          "amount": -145.35,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 2670.18
+        },
+        {
+          "date": "2026-08-04",
+          "amount": 1340.88,
+          "type": "PIX_IN",
+          "description": "Sal\u00e1rio/PIX recebido",
+          "balance_after": 4459.91
+        },
+        {
+          "date": "2026-08-03",
+          "amount": -391.68,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 500.84
+        },
+        {
+          "date": "2026-08-02",
+          "amount": -309.41,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 211.41
+        },
+        {
+          "date": "2026-08-01",
+          "amount": -66.19,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1800.56
+        },
+        {
+          "date": "2026-07-31",
+          "amount": -229.72,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 640.61
+        },
+        {
+          "date": "2026-07-30",
+          "amount": -196.84,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2510.49
+        },
+        {
+          "date": "2026-07-29",
+          "amount": -182.86,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 2425.19
+        },
+        {
+          "date": "2026-07-28",
+          "amount": -33.68,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 2734.95
+        },
+        {
+          "date": "2026-07-27",
+          "amount": -63.25,
+          "type": "PIX_OUT",
+          "description": "Consumo",
+          "balance_after": 1420.44
+        },
+        {
+          "date": "2026-07-26",
+          "amount": -242.77,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 315.78
+        },
+        {
+          "date": "2026-07-25",
+          "amount": -255.38,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 399.14
+        },
+        {
+          "date": "2026-07-24",
+          "amount": -156.02,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 1439.24
+        },
+        {
+          "date": "2026-07-23",
+          "amount": -378.96,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 1100.75
+        },
+        {
+          "date": "2026-07-22",
+          "amount": -40.43,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 135.05
+        },
+        {
+          "date": "2026-07-21",
+          "amount": -357.26,
+          "type": "DEBIT",
+          "description": "Consumo",
+          "balance_after": 2077.77
+        },
+        {
+          "date": "2026-07-20",
+          "amount": -336.12,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 348.52
+        },
+        {
+          "date": "2026-07-19",
+          "amount": -166.34,
+          "type": "CARD_PAYMENT",
+          "description": "Consumo",
+          "balance_after": 784.67
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "bank_name": "Banco Exemplo",
+      "due_date": "2026-10-16",
+      "total_amount": 525.0,
+      "minimum_payment": 150.0,
+      "paid_amount": 150.0,
+      "days_past_due": 57
+    }
+  ]
+}
