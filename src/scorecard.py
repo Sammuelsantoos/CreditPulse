@@ -86,11 +86,10 @@ def compute_score(features: dict[str, float]) -> ScoreResult:
         score_unit += contrib
     score_unit /= total_weight
 
-    eps = 1e-6
-    odds_bom = max(score_unit, eps) / max(1 - score_unit, eps)
-    factor = 50 / math.log(2)
-    offset = 600 - factor * math.log(50)
-    score = offset + factor * math.log(odds_bom)
+    # Score calibration: 200 (pior) a 1000 (melhor)
+    # score_unit ∈ [0,1] é mapeado linearmente
+    # Garante separação clara entre APPROVED/MANUAL/REJECTED
+    score = 200 + score_unit * 800
     score_int = int(max(0, min(1000, round(score))))
 
     pd_value = compute_pd(features)
